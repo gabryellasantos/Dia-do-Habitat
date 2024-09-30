@@ -1,0 +1,53 @@
+.textos p, .textos h2{
+    color: var(--cor_preto);
+    font-family: var(--fonte_textos);
+}
+
+#texto-banner h1, #texto-banner p{
+    color: var(--cor_de_fundo);
+    font-family: var(--fonte_textos);
+}
+
+.textos p, #quadro p{
+    font-size: 1.2rem;
+    font-weight: var(--regular);
+}
+
+#banner{
+    background-image: url(../assets/Banner\ 2.png);
+}
+
+.textos h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-decoration: underline solid var(--cor_primaria) 0.3rem;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem ;
+}
+
+#quadro{
+    height: auto;
+    background-color: var(--cor_primaria);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3.5rem 4rem;
+    gap: 5rem;
+    border-radius: 1.8rem;
+    margin: 3.12rem 0;
+}
+
+#quadro p{
+    color: var(--cor_de_fundo);
+    font-family: var(--fonte_textos);
+}
+
+#img-quadro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.8rem;
+}

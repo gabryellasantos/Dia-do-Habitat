@@ -1,0 +1,6 @@
+/*AJUSTES DE TELA*/
+@media (min-width:1600px) and (max-width: 1800px) {
+    section{
+        width: 70%;
+    }
+}
